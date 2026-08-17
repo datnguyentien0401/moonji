@@ -181,7 +181,7 @@ function buildTextDots() {
   const textCanvas = document.createElement("canvas");
   const textCtx = textCanvas.getContext("2d", { willReadFrequently: true });
   const fontSize = 72;
-  const message = "Would you be my girl friend!";
+  const message = "";
 
   textCanvas.width = 1180;
   textCanvas.height = 150;
